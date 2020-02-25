@@ -1,0 +1,22 @@
+{
+    "name": "ledccn/auth",
+    "description": "基于PhalApi2的auth扩展，改自官方的扩展库",
+    "type": "library",
+    "keywords": ["auth", "PhalApi"],
+    "homepage": "https://github.com/ledccn/auth",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "David",
+            "email": "367013672@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhalApi\\Auth\\": "src"
+        }
+    }
+}
