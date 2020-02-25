@@ -7,6 +7,7 @@ return array(
         'auth_group_access' => 'auth_group_access', // 用户-组关系表
         'auth_rule'         => 'auth_rule',         // 权限规则表
         'auth_user'         => 'member',            // 用户信息表
+        //auth白名单，区别：系统白名单设置后不会进入过滤器，auth白名单是用户登录后针对所有用户的。
         'auth_service_whitelist' => array(
             'Site.*',           // 默认
             'Auth.*',           // 授权时不需要验证
